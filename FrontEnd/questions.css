@@ -1,0 +1,293 @@
+html{
+    margin: 0;
+    min-height: 100%;
+    position: relative;
+}
+body{
+    background: rgba(0, 0, 0, .75);
+    background-image: url(BG.jpg);
+    background-repeat:repeat-y;
+    background-size: cover;
+    /* backdrop-filter: blur(1px); */
+    background-blend-mode:darken;
+    margin-bottom: 8%;
+    
+}
+
+.nav-bg{
+    background-color: rgba(48, 0, 63, 0.65);
+}
+
+header{
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+}
+
+.sidebar{
+    text-align:right;
+    font-size: larger;
+}
+
+.logo{
+    font-size: 1.4em;
+    position: relative;
+    top: 0.2vw;
+    text-align: right;
+    margin: 0px 2px;
+}
+
+a:hover{
+    color: rgb(251, 255, 1);
+   
+}
+.dropdown-menu{
+    min-width: 0;
+    padding: 0%;
+}
+.dropdown-item{
+    background-color: rgba(48, 0, 63, 0.65);
+    color:white;
+    font-size: 20px;
+}
+a{
+    color: white;
+    margin: 0px 5px;
+    padding: 0%;
+}
+
+hr{
+    margin:0px;
+}
+
+#white{
+    color: white;
+    
+}
+
+#start{
+    height: 8%;
+    width: 170px;
+    background-color:rgba(155, 38, 9, 0.85);
+    border: solid rgb(255, 255, 255) 2px;
+    border-radius: 18px;
+    color: white;
+    font-size: 30px;
+    /* font-weight: bolder; */
+    text-align: center;
+    position:relative;
+    top:10vw;
+    margin: 0% auto;
+}
+
+#start:hover{
+    background-color: rgba(95, 12, 1, 0.45);
+    cursor:pointer;
+}
+
+.card-footer{
+    background-color: rgba(48, 0, 63, 0.65);
+    color: white;
+    width: 100%;
+    /* height:8%; 
+    padding: 10px 0px 0px 20px ;  */
+    position: absolute;
+    bottom: 0;
+}
+
+.flogo{
+    font-size: 1.2em;
+    margin-left: 25vw;
+    margin-bottom: 1%;
+}
+
+/* Questions Section */
+
+form{
+    text-align: center;
+    position: relative;
+    top:5rem;
+}
+
+form div{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+form div h1{
+    color: white;
+    background: rgba(122, 0, 71, 0.65);
+    padding:2rem;
+    margin: 0%;
+    border-radius: 20px;
+    border: 1px white solid;
+    box-shadow: 2px 2px 10px white;
+
+}
+
+.btn{
+    margin: 10% 5%;
+    font-size: 2.5em;
+    width: 8em;
+    text-align: center;
+}
+
+div.btn-group{
+    /* padding: 0 auto; */
+    width: 35em;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 1.8em;
+}
+
+.btn-check:active+.btn-outline-primary, .btn-check:checked+.btn-outline-primary, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show, .btn-outline-primary:active{
+    color: white;
+    background-color:  rgba(79, 0, 87, 0.65);
+    border-color:  white;
+    box-shadow: none;
+    border-radius: 20%;
+}
+
+.btn-outline-primary{
+    color: white;
+    background-color:  rgba(122, 0, 71, 0.65);
+    border-color:  rgba(255, 255, 255, 0.65);
+    box-shadow: 2px 2px 10px white;
+}
+
+.btn-outline-primary:hover{
+    color: white;
+    background-color:  rgba(79, 0, 87, 0.65);
+    border-color:  rgba(255, 255, 255, 0.65);
+    cursor:pointer;
+}
+
+.btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle){
+    border-radius: 20px;
+}
+
+.btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:nth-child(n+3), .btn-group>:not(.btn-check)+.btn{
+    border-radius: 20px;
+
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.btns div{
+    width: 8em;
+    /* margin:10%; */
+    font-size: 1.5em;
+    padding-left: 0.5em;
+}
+
+div button{
+    height: 2em;
+    width: 4.8em;
+    background-color:rgba(155, 38, 9, 0.85);
+    border: solid rgb(255, 255, 255) 1px;
+    border-radius: 18px;
+    color: white;
+    text-align: center;
+    position:relative;
+    margin: 1em 0;
+    box-shadow: 1px 1px 5px white;
+}
+
+div button:hover{
+    background-color: rgba(95, 12, 1, 0.45);
+    cursor:pointer;
+}
+
+/* Question 2 and 3 page */
+
+.btn3{
+    margin: 5% 5%;
+    font-size: 1.8em;
+    width: 8em;
+    height: 2em;
+    vertical-align:middle;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+div.btn-group3{
+    width: 40em;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 2em;
+}
+
+.btn-group3>.btn-group3:not(:last-child)>.btn3, .btn-group3>.btn3:not(:last-child):not(.dropdown-toggle){
+    border-radius: 20px;
+}
+
+.btn-group3>.btn-group3:not(:first-child)>.btn3, .btn-group3>.btn3:nth-child(n+3), .btn-group3>:not(.btn-check)+.btn3{
+    border-radius: 20px;
+}
+
+/* Question 4 page */
+
+.btn4{
+    margin: 5% 5%;
+    font-size: 1.8em;
+    width: 8em;
+    height: 2em;
+    vertical-align:middle;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+div.btn-group4{
+    width: 40em;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 2em;
+}
+
+.btn-group4>.btn-group4:not(:last-child)>.btn4, .btn-group4>.btn4:not(:last-child):not(.dropdown-toggle){
+    border-radius: 20px;
+}
+
+.btn-group4>.btn-group4:not(:first-child)>.btn4, .btn-group4>.btn4:nth-child(n+3), .btn-group4>:not(.btn-check)+.btn4{
+    border-radius: 20px;
+}
+
+/* Question 5 page */
+
+.btn5{
+    margin: 5% 5%;
+    font-size: 1.8em;
+    width: 10em;
+    height: 4em;
+    vertical-align:middle;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+div.btn-group5{
+    width: 40em;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btn-group5>.btn-group5:not(:last-child)>.btn5, .btn-group5>.btn5:not(:last-child):not(.dropdown-toggle){
+    border-radius: 20px;
+}
+
+.btn-group5>.btn-group5:not(:first-child)>.btn5, .btn-group5>.btn5:nth-child(n+3), .btn-group5>:not(.btn-check)+.btn5{
+    border-radius: 20px;
+}
+
+button a{
+    text-decoration: none;
+}
+
+button a:hover{
+    color: inherit;
+}

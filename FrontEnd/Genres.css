@@ -1,0 +1,128 @@
+html{
+    margin: 0;
+    min-height: 100%;
+    position: relative;
+}
+body{
+    background: rgba(0, 0, 0, 0.9);
+    background-image: url(bg4.jpg);
+    background-repeat:repeat-y;
+    background-size: cover;
+    backdrop-filter: blur(10%);
+    background-blend-mode:darken;
+    margin-bottom: 8%;
+    text-align: center;
+}
+.nav-bg{
+    background-color: rgba(63, 0, 82, 0.65);
+}
+
+header{
+    box-shadow: 3px 3px 15px rgb(255, 255, 255);
+}
+
+.sidebar{
+    text-align:right;
+    font-size: larger;
+}
+
+.logo{
+    font-size: 1.4em;
+    position: relative;
+    top: 0.2vw;
+    text-align: right;
+    margin: 0px 2px;
+}
+
+a:hover{
+    color: rgb(251, 255, 1);
+   
+}
+.dropdown-menu{
+    min-width: 0;
+    padding: 0%;
+}
+.dropdown-item{
+    background-color: rgba(48, 0, 63, 0.65);
+    color:white;
+    font-size: 20px;
+}
+a{
+    color: white;
+    margin: 0px 5px;
+    padding: 0%;
+}
+
+hr{
+    margin:0px;
+}
+
+#white{
+    color: white;
+    
+}
+.card-footer{
+    background-color: rgba(48, 0, 63, 0.65);
+    color: white;
+    width: 100%;
+    /* height:8%; 
+    padding: 10px 0px 0px 20px ;  */
+    position: absolute;
+    bottom: 0;
+}
+
+.flogo{
+    font-size: 1.2em;
+    margin-left: 25vw;
+    margin-bottom: 1%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.gallery {
+    background: #EEE;
+    position: relative;
+    top:2rem;
+}
+.gallery-cell {
+    width: 100%;
+    height: 300px;
+}  
+
+.flickity-page-dots .dot {
+    background: rgb(255, 255, 255);
+}
+
+.ghead{
+    color: white;
+    position: relative;
+    top:1.5rem;
+}
+
+.gpost{
+    color: white;
+    /* column-count: 2; */
+    padding: 1.5%;
+    margin: 80px auto 0px auto;
+    text-align: justify;
+    background-color:rgba(10, 10, 10, 0.2);
+    width: 90%;
+    height:fit-content;
+    box-shadow: 5px 5px 20px rgb(112, 112, 112); 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gpost h2{
+    color: red;
+    margin-bottom: 1em;
+    text-decoration-line: underline;
+}
+
+.glist{
+    columns: 2;
+    font-weight: 400;
+    font-size: larger;
+}
